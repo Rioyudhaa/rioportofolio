@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio Rio - UI/UX Designer & Frontend Developer. Merancang dan membangun pengalaman digital yang indah dan fungsional.">
+  <title>Rio | Portfolio — UI/UX Designer & Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Rio<span style="color:#e942f5">.</span>dev</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span> Available for work
+        </div>
+        <h1>Hi, I'm <span class="gradient-text">Rio</span><br>
+          <span class="typing-text" style="color: var(--accent-light);"></span><span
+            style="animation: pulse 1s infinite; color: var(--accent-light);">|</span>
+        </h1>
+        <p>Saya merancang dan membangun interface digital yang indah, intuitif, dan berkesan. Menggabungkan kreativitas
+          desain dengan keahlian frontend untuk menciptakan pengalaman pengguna yang luar biasa.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> Lihat Karya Saya</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-container">
+          <div class="avatar-ring"></div>
+          <img src="assets/avatar1.jpeg" alt="Rio" class="avatar-img">
+          <div class="avatar-float f1">🚀 15+ Projects</div>
+          <div class="avatar-float f2">🎨 UI/UX Design</div>
+          <div class="avatar-float f3">✨ Pixel Perfect</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">Tentang Saya</span>
+        <h2 class="section-title">Passion Meets <span class="gradient-text">Purpose</span></h2>
+        <p class="section-desc">Mengenal lebih dekat siapa di balik desain-desain ini.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="assets/about1.jpeg" alt="Workspace">
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="num"><span class="counter" data-target="3" data-suffix="+">0</span></div>
+              <div class="label">Tahun Exp.</div>
+            </div>
+            <div class="stat-card">
+              <div class="num"><span class="counter" data-target="15" data-suffix="+">0</span></div>
+              <div class="label">Projects</div>
+            </div>
+            <div class="stat-card">
+              <div class="num"><span class="counter" data-target="10" data-suffix="+">0</span></div>
+              <div class="label">Clients</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <h3>UI/UX Designer & Frontend Developer berbasis di Indonesia 🇮🇩</h3>
+          <p>Saya adalah seorang UI/UX designer dan frontend developer yang passionate dengan pengalaman dalam merancang
+            dan membangun interface yang memukau. Fokus saya adalah menciptakan desain yang intuitif dan pengalaman
+            pengguna yang menyenangkan.</p>
+          <p>Saya percaya bahwa desain yang baik adalah perpaduan sempurna antara estetika dan fungsionalitas. Setiap
+            proyek yang saya kerjakan selalu mengutamakan user experience, visual consistency, dan detail pixel-perfect.
+          </p>
+          <p>Ketika tidak sedang mendesain atau coding, saya biasanya mengeksplorasi tren desain terbaru, membaca
+            artikel tentang UX research, atau bereksperimen dengan animasi dan micro-interactions.</p>
+          <div style="margin-top:1.5rem;">
+            <a href="https://drive.google.com/file/d/16i-PN8vQmINvKFawZLR0hdzFg_SYdC2m/view?usp=sharing" target="_blank"
+              rel="noopener noreferrer" class="btn btn-primary" style="display:inline-flex;"><i
+                class="fas fa-download"></i>
+              Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" style="background: var(--bg-secondary);">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">Keahlian</span>
+        <h2 class="section-title">Tech Stack & <span class="gradient-text">Skills</span></h2>
+        <p class="section-desc">Teknologi dan tools yang saya gunakan sehari-hari.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">🎨</div>
+          <h4>Frontend Development</h4>
+          <p>Membangun interface yang responsif dan interaktif dengan teknologi web modern.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Vue.js</span>
+            <span class="skill-tag">Tailwind</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">📐</div>
+          <h4>Responsive Design</h4>
+          <p>Membangun layout yang adaptif dan sempurna di setiap ukuran layar.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">CSS Grid</span>
+            <span class="skill-tag">Flexbox</span>
+            <span class="skill-tag">Media Queries</span>
+            <span class="skill-tag">Mobile First</span>
+            <span class="skill-tag">Animations</span>
+            <span class="skill-tag">SASS</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🛠️</div>
+          <h4>Design Tools & Workflow</h4>
+          <p>Menguasai tools desain modern dan workflow kolaborasi tim.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Storybook</span>
+            <span class="skill-tag">Notion</span>
+            <span class="skill-tag">Zeplin</span>
+            <span class="skill-tag">Lottie</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🖌️</div>
+          <h4>UI/UX Design</h4>
+          <p>Merancang antarmuka yang cantik, intuitif, dan user-centered.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Adobe XD</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Prototyping</span>
+            <span class="skill-tag">Wireframing</span>
+            <span class="skill-tag">User Research</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-desc">Beberapa proyek terbaik yang pernah saya kerjakan.</p>
+      </div>
+      <div class="carousel-container reveal">
+        <div class="carousel-track" id="carouselTrack">
+          <!-- Slide 1 -->
+          <div class="carousel-slide active">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/digitalagency.png" alt="InjaDesign - Web Design Agency" class="project-img">
+                <span class="slide-badge">01 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Website Design</div>
+                <h3>InjaDesign — Web Agency</h3>
+                <p>Desain landing page untuk agency web design profesional dengan tampilan modern, clean, dan corporate.
+                  Menampilkan layanan seperti Corporate Web Design, E-Commerce System, SEO Service, dan UI/UX Design.
+                </p>
+                <div class="project-tech">
+                  <span>Figma</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/tsmtravel.png" alt="TSM Tour - Travel Website" class="project-img">
+                <span class="slide-badge">02 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Travel Website</div>
+                <h3>TSM Tour — Travel Platform</h3>
+                <p>Website travel dan tour dengan fitur destinasi populer, tipe paket wisata (Adventure, Romance,
+                  Seasonal), dan integrasi newsletter. Desain fresh dengan navigasi yang user-friendly.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Prototyping</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/kasirdashboard.webp" alt="Kasir Dashboard" class="project-img">
+                <span class="slide-badge">03 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Web Application</div>
+                <h3>Kasir Dashboard</h3>
+                <p>Dashboard aplikasi kasir (point of sale) dengan antarmuka intuitif untuk manajemen transaksi, produk,
+                  dan laporan penjualan secara real-time.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Dashboard</span><span>Prototyping</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/riobarbershop.png" alt="Rio Barbershop" class="project-img">
+                <span class="slide-badge">04 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Website Design</div>
+                <h3>Rio Barbershop</h3>
+                <p>Desain website untuk barbershop modern dengan fitur booking online, galeri portofolio gaya rambut,
+                  dan informasi layanan yang lengkap serta menarik.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>HTML</span><span>CSS</span><span>UI/UX Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/gymlandingpages.png" alt="Gym Landing Page" class="project-img">
+                <span class="slide-badge">05 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Landing Page</div>
+                <h3>Gym Landing Page</h3>
+                <p>Desain landing page untuk gym dan fitness center dengan tampilan bold, energik, dan motivasional.
+                  Menampilkan program latihan, jadwal kelas, dan membership plans.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>HTML</span><span>CSS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 6 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/softwareagency1.png" alt="Software Agency" class="project-img">
+                <span class="slide-badge">06 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Website Design</div>
+                <h3>Software Agency</h3>
+                <p>Desain website untuk software agency profesional dengan tampilan modern dan corporate. Menampilkan
+                  layanan pengembangan software, portofolio proyek, dan tim developer.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Prototyping</span><span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 7 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/podcast.png" alt="Podcast Platform" class="project-img">
+                <span class="slide-badge">07 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Website Design</div>
+                <h3>Podcast Platform</h3>
+                <p>Desain website platform podcast dengan antarmuka yang clean dan immersive. Menampilkan fitur
+                  streaming, playlist episode, dan halaman profil podcaster.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Prototyping</span><span>HTML</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 8 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/banklandingpage.png" alt="Bank Landing Page" class="project-img">
+                <span class="slide-badge">08 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Landing Page</div>
+                <h3>Bank Landing Page</h3>
+                <p>Desain landing page untuk layanan perbankan digital dengan tampilan trustworthy dan profesional.
+                  Menampilkan fitur produk keuangan, layanan nasabah, dan keamanan transaksi.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>HTML</span><span>CSS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 9 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/bloglandingpage.png" alt="Blog Landing Page" class="project-img">
+                <span class="slide-badge">09 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Landing Page</div>
+                <h3>Blog Landing Page</h3>
+                <p>Desain landing page untuk platform blog modern dengan layout yang clean dan readable. Menampilkan
+                  artikel terbaru, kategori konten, dan fitur subscribe newsletter.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Prototyping</span><span>CSS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 10 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/dentallandingpage.png" alt="Dental Landing Page" class="project-img">
+                <span class="slide-badge">10 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Landing Page</div>
+                <h3>Dental Clinic Landing Page</h3>
+                <p>Desain landing page untuk klinik gigi dengan tampilan bersih, segar, dan terpercaya. Menampilkan
+                  layanan perawatan gigi, jadwal dokter, dan booking appointment online.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>HTML</span><span>CSS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 11 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/ecommerceadmin.png" alt="E-Commerce Admin Dashboard" class="project-img">
+                <span class="slide-badge">11 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Web Application</div>
+                <h3>E-Commerce Admin Dashboard</h3>
+                <p>Dashboard admin untuk platform e-commerce dengan fitur manajemen produk, analitik penjualan,
+                  pengelolaan pesanan, dan monitoring performa toko secara real-time.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Dashboard</span><span>Prototyping</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 12 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/investmentdashboard.png" alt="Investment Dashboard" class="project-img">
+                <span class="slide-badge">12 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Web Application</div>
+                <h3>Investment Dashboard</h3>
+                <p>Dashboard investasi dengan visualisasi data portfolio, grafik performa aset, tracking ROI, dan
+                  analitik pasar keuangan yang informatif dan mudah dipahami.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Dashboard</span><span>Data Visualization</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 13 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/invoicingdashboard.png" alt="Invoicing Dashboard" class="project-img">
+                <span class="slide-badge">13 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Web Application</div>
+                <h3>Invoicing Dashboard</h3>
+                <p>Dashboard invoicing untuk manajemen faktur dan pembayaran. Menampilkan fitur pembuatan invoice,
+                  tracking pembayaran, laporan keuangan, dan notifikasi jatuh tempo.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Dashboard</span><span>Prototyping</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 14 -->
+          <div class="carousel-slide">
+            <div class="project-card">
+              <div class="project-img-wrap">
+                <img src="assets/jobfinderdashboard.png" alt="Job Finder Dashboard" class="project-img">
+                <span class="slide-badge">14 / 14</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">Web Application</div>
+                <h3>Job Finder Dashboard</h3>
+                <p>Dashboard platform pencarian kerja dengan fitur filter lowongan, tracking lamaran, profil kandidat,
+                  dan rekomendasi pekerjaan berdasarkan skill dan preferensi pengguna.</p>
+                <div class="project-tech">
+                  <span>Figma</span><span>UI/UX Design</span><span>Dashboard</span><span>Prototyping</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <!-- Dots -->
+        <div class="carousel-dots" id="carouselDots"></div>
+        <!-- Progress Bar -->
+        <div class="carousel-progress">
+          <div class="carousel-progress-bar" id="carouselProgressBar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" style="background: var(--bg-secondary);">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">Pengalaman</span>
+        <h2 class="section-title">Career <span class="gradient-text">Journey</span></h2>
+        <p class="section-desc">Perjalanan profesional saya sejauh ini.</p>
+      </div>
+      <div class="timeline">
+        <!-- BPS Sukabumi -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2025 — Des 2025</div>
+          <div class="timeline-content">
+            <h3>UI/UX Designer & Junior Front End Developer (Intern)</h3>
+            <div class="company">Badan Pusat Statistik (BPS), Sukabumi Regency</div>
+            <ul class="timeline-list">
+              <li>Designed the user interface for the SIPANDU website to support the effectiveness of document
+                monitoring at BPS Sukabumi.</li>
+              <li>Created interactive wireframes and mockups using Figma, adhering to ISO 9241-11 principles and field
+                user requirements.</li>
+              <li>Implemented design concepts into web interfaces using HTML, CSS, JavaScript, and Laravel Blade.</li>
+              <li>Ensured visual consistency, accessibility, and ease of navigation for both officers and admin users.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- PT Proxinet -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jul 2025 — Aug 2025</div>
+          <div class="timeline-content">
+            <h3>UI/UX Designer (Intern)</h3>
+            <div class="company">PT Proxinet Jaringan Nusantara, Sukabumi</div>
+            <ul class="timeline-list">
+              <li>Designed the User Interface (UI) and User Experience (UX) for web-based systems focusing on networks
+                and customer management.</li>
+              <li>Developed wireframes, mockups, and interactive prototypes to support internal system development.</li>
+              <li>Analyzed user needs and optimized navigation flows to ensure efficient and intuitive system usage.
+              </li>
+              <li>Defined color schemes, typography, and visual elements to maintain consistency with corporate
+                identity.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- PT Siber Teknologi -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Feb 2025 — Jun 2025</div>
+          <div class="timeline-content">
+            <h3>UI/UX Designer (Intern)</h3>
+            <div class="company">PT Siber Teknologi Persada Indonesia, Bogor</div>
+            <ul class="timeline-list">
+              <li>Structured application designs with a focus on accessibility standards and modern design principles.
+              </li>
+              <li>Determined visual elements such as colors, icons, and layouts to ensure a consistent and responsive
+                appearance.</li>
+              <li>Designed application interfaces that are relevant to usage goals and easy for users to navigate.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Orely Studio -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Okt 2020 — Jul 2021</div>
+          <div class="timeline-content">
+            <h3>Junior UI/UX Designer (Intern)</h3>
+            <div class="company">Orely Studio, Sukabumi</div>
+            <ul class="timeline-list">
+              <li>Designed and developed wireframes, mockups, and interactive prototypes.</li>
+              <li>Collaborated with the development team to implement efficient and engaging designs.</li>
+              <li>Conducted user research through surveys, interviews, and behavioral analysis to enhance user
+                experience.</li>
+              <li>Curated designs according to accessibility standards and industry best practices.</li>
+              <li>Designed website layouts focusing on color, placement, and imagery, as well as relevant application
+                interfaces.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">Kontak</span>
+        <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+        <p class="section-desc">Punya proyek menarik? Mari berkolaborasi!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Mari Terhubung</h3>
+          <p>Saya selalu terbuka untuk diskusi tentang proyek baru, ide kreatif, atau kesempatan untuk menjadi bagian
+            dari visi Anda.</p>
+          <div class="contact-links">
+            <a href="mailto:rioprt45@gmail.com" class="contact-link">
+              <div class="icon"><i class="fas fa-envelope"></i></div>
+              <div class="details">
+                <span class="lbl">Email</span>
+                <span>rioprt45@gmail.com</span>
+              </div>
+            </a>
+            <a href="#" class="contact-link">
+              <div class="icon"><i class="fas fa-phone"></i></div>
+              <div class="details">
+                <span class="lbl">Phone</span>
+                <span>+62 852 1349 4252</span>
+              </div>
+            </a>
+            <a href="#" class="contact-link">
+              <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="details">
+                <span class="lbl">Location</span>
+                <span>Indonesia</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <input type="hidden" name="access_key" value="c4530a23-9ed1-4ff7-ae1b-86a97b21ea34">
+          <input type="hidden" name="from_name" value="Rio Portfolio Contact">
+          <div class="form-group">
+            <input type="text" id="contactName" name="name" placeholder="Nama Lengkap" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="contactEmail" name="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="text" id="contactSubject" name="subject" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea id="contactMessage" name="message" placeholder="Tulis pesan Anda di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+            <i class="fas fa-paper-plane"></i> Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-socials">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <p>&copy; 2026 Rio<span style="color:var(--accent);">.</span>dev — Built with ❤️ and ☕</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
